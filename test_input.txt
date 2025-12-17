@@ -1,0 +1,21 @@
+Personal Information Manager – Test Inputs
+
+Test Case 1: Normal Input
+--------------------------
+Favorite Food: Pizza
+Favorite Color: Blue
+Expected Result: Program accepts input and displays correctly.
+
+Test Case 2: Empty Input Validation
+-----------------------------------
+Favorite Food: 
+Result: Rejected empty input.
+Favorite Food: Biryani
+Favorite Color: Black
+Expected Result: Program asks again until valid input is entered.
+
+Test Case 3: Long Input
+-----------------------
+Favorite Food: VeryVeryLongFoodNameExample
+Favorite Color: VeryVeryLongColorNameExample
+Expected Result: Program handles long strings without error.
