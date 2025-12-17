@@ -1,0 +1,53 @@
+# Personal Information Manager
+# Author: Your Name
+# Week 1 Python Task
+
+# Welcome message
+print("=" * 40)
+print("    PERSONAL INFORMATION MANAGER")
+print("=" * 40)
+print()
+
+# Static information
+name = "Alex Johnson"
+age = 22
+city = "San Francisco"
+hobby = "playing guitar"
+
+# User input
+print("Please tell me about yourself:")
+print("-" * 30)
+
+favorite_food = input("What's your favorite food? ")
+while favorite_food.strip() == "":
+    print("Please enter a valid food!")
+    favorite_food = input("What's your favorite food? ")
+
+favorite_color = input("What's your favorite color? ")
+while favorite_color.strip() == "":
+    print("Please enter a valid color!")
+    favorite_color = input("What's your favorite color? ")
+
+# Calculation
+age_in_months = age * 12
+
+# Output
+print()
+print("=" * 40)
+print("        YOUR INFORMATION")
+print("=" * 40)
+print()
+
+print(f"Name: {name}")
+print(f"Age: {age} years ({age_in_months} months old)")
+print(f"City: {city}")
+print(f"Hobby: {hobby}")
+print()
+print(f"Favorite Food: {favorite_food.title()}")
+print(f"Favorite Color: {favorite_color.title()}")
+
+# Goodbye
+print()
+print("=" * 40)
+print("Thanks for using this program!")
+print("=" * 40)
